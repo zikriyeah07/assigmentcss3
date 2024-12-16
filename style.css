@@ -1,0 +1,177 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* fonts imorted */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: "poppins", sans-serif ;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px auto;
+    padding-left: 17px;
+    padding-top: 9px;
+    background: #fff;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+ .navbar .get-quote {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 4px 7px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+
+.get-quote:hover{
+    background-color: #c2b5b5;
+    border-radius: 20px;
+    transition: 0.3s;
+    /* width: 40px; */
+    scale: 10px;
+    color: #333;
+}
+
+.navlink:hover{
+    background-color: #d1c7c7;
+    border-radius: 30px;
+    /* width: 40px; */
+    padding: 8px 2px;
+    transition: 0.6s;
+}
+
+.navlink{
+    font-weight: 650;
+    padding: 8px 2px;
+}
+
+.navbar-leftside{
+    display: flex;
+    align-items: center;
+}
+
+#logomain{
+    width: 40px;
+    height: 30px;
+}
+.navbar-rightside{
+    display: inline-block;
+    align-items: center;
+    /* background-color: red; */
+    margin-left: 40px;
+}
+
+#logotext{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.3s;
+    /* padding-bottom: 40px; */
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #271c1c;
+    margin: 0 15px;
+    font-weight: 650;
+
+}
+
+.landingpage{
+    background-color: #fff;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+#maintext{
+    font-size: 30px;
+    font-weight: 900;
+    height: 5px 5px;
+    padding-bottom: 13px;
+    color: rgb(6, 148, 39);
+    width: 350px;
+}
+
+#hoverbutton{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+#hoverbutton:hover{
+    background-color: #3dc2c5; 
+    transition: 0.3s;
+}
+
+#howitworkbutton{
+    background-color: #f8f2f2ab; 
+    border: 2px solid rgb(200, 31, 31);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:grabbing ;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+#howitworkbutton:hover{
+    background-color: #ff6666; 
+    transition: 0.3s;
+}
+
+#mainpara{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.text-left{
+    text-align: left;
+    margin-left: 80px;
+    width: 50%;
+}
+
+#buttonofwork{
+    border: none;
+    background-color: #fff;
+    font-family: cursive;
+    margin-left: 0cm;
+    margin: left 15px; ;
+    padding-left: 13px;
+}
+.landingpage-image{
+    width: 50%;
+    max-width: 500px;
+    margin-right: 100px;
+}
